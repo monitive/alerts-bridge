@@ -1,1 +1,1 @@
-Provider plugins land in Phase 2 (uptimemonitoring/alerts-bridge#2).
+Provider plugins land in Phase 2 (monitive/alerts-bridge#2).

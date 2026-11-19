@@ -1,4 +1,4 @@
-# UptimeMonitoring Alerts Bridge
+# Monitive Alerts Bridge
 
 Webhook bridge that accepts Monitive deliveries and dispatches to a notification provider (Pushover, ntfy.sh, Slack, Discord, Telegram). MIT-licensed, open-source. Deploys to Cloudflare Workers today; the runtime-agnostic core (Vercel, Deno Deploy, AWS Lambda, and Node/VPS adapters) is on the roadmap.
 
@@ -78,7 +78,7 @@ Telegram delivers alerts as plain-text messages via the [Bot API](https://core.t
 
 ## Monitor event payload
 
-The UptimeMonitoring API sends `monitor.down`, `monitor.up`, and `monitor.flapping` events as a JSON body. The bridge accepts these fields:
+The Monitive API sends `monitor.down`, `monitor.up`, and `monitor.flapping` events as a JSON body. The bridge accepts these fields:
 
 | Field | Type | Required | Description |
 |---|---|---|---|
